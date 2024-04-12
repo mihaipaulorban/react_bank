@@ -2,7 +2,7 @@
 import React from "react";
 
 const FEedbackCard = () => {
-  return <div></div>;
+  return <div>Feedback Card</div>;
 };
 
 export default FEedbackCard;

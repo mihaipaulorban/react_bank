@@ -2,7 +2,7 @@
 import React from "react";
 
 const GetStarted = () => {
-  return <div></div>;
+  return <div>Get Started</div>;
 };
 
 export default GetStarted;

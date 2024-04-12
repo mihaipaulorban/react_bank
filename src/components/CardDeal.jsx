@@ -2,7 +2,7 @@
 import React from "react";
 
 const CardDeal = () => {
-  return <div></div>;
+  return <div>Card Deal</div>;
 };
 
 export default CardDeal;
