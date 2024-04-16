@@ -14,7 +14,7 @@ const CardDeal = () => (
         Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
         aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
       </p>
-      <Button styles="mt-10" />
+      <Button styles="mt-10 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300" />
     </div>
 
     <div className={layout.sectionImg}>

@@ -6,7 +6,7 @@ const GetStarted = () => (
     className={`${styles.flexCenter} bg-blue-gradient h-[140px] w-[140px] cursor-pointer rounded-full p-[2px]`}
   >
     <div
-      className={`${styles.flexCenter} h-[100%] w-[100%] flex-col rounded-full bg-primary`}
+      className={`${styles.flexCenter} h-[100%] w-[100%] flex-col rounded-full bg-primary transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-teal-800 `}
     >
       <div className={`${styles.flexStart} flex-row`}>
         <p className="mr-2 font-poppins text-[18px] font-medium leading-[23px]">

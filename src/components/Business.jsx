@@ -7,10 +7,10 @@ import Button from './Button';
 // Card for Reuse
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
-    className={`flex flex-row rounded-[20px] p-6 ${index !== features.length - 1 ? 'mb-6' : 'mb-0'} feature-card`}
+    className={`flex flex-row rounded-[20px] p-6 ${index !== features.length - 1 ? 'mb-6' : 'mb-0'} feature-card transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-110`}
   >
     <div
-      className={`h-[64px] w-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
+      className={`h-[64px] w-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
     >
       <img src={icon} alt="icon" className="h-[50%] w-[50%] object-contain" />
     </div>
@@ -37,9 +37,9 @@ const Business = () => (
         building credit, earning rewards and saving money. But with hundreds of
         credit cards on the market.
       </p>
-      <Button styles="mt-10" />
+      <Button styles="mt-10 transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" />
     </div>
-    <div className={`${layout.sectionImg} flex-col`}>
+    <div className={`${layout.sectionImg} flex-col `}>
       {features.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}

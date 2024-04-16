@@ -13,7 +13,9 @@ const CTA = () => (
         anywhere on the planet.
       </p>
     </div>
-    <div className={`${styles.flexCenter} ml-0 mt-10 sm:ml-10 sm:mt-0`}>
+    <div
+      className={`${styles.flexCenter} ml-0 mt-10 transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 sm:ml-10 sm:mt-0`}
+    >
       <Button />
     </div>
   </section>
